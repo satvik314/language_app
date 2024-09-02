@@ -50,7 +50,7 @@ def explain_prompt(sentence):
     """
     return explain_prompt_template
 
-def run_app(query=None, provider_vk = "anthropic-9e8db9", model_name = 'claude-3-sonnet-20240229' ):
+def run_app(query=None, provider_vk = "anthropic-9e8db9", model_name = 'claude-3-5-sonnet-20240620' ):
 
     if query:
       prompt = explain_prompt(query)
